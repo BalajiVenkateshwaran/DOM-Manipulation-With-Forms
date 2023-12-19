@@ -1,0 +1,53 @@
+.divLayout {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(95, 87, 74);
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  margin: 20px;
+  padding: 40px;
+  text-align: left;
+}
+
+h1 {
+  padding: 20px;
+}
+
+div {
+  margin: 20px;
+}
+
+.buttonStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.submitButton {
+  background-color: darkgreen;
+  color: aliceblue;
+  border: none;
+  border-radius: 12px;
+  width: 100px;
+  height: 40px;
+  margin: 12px;
+}
+
+.clearButton {
+  background-color: rgb(153, 58, 58);
+  color: aliceblue;
+  border: none;
+  border-radius: 12px;
+  width: 100px;
+  height: 40px;
+  margin: 12px;
+}
+
+.divLayout input,
+select,
+option {
+  width: 30%;
+  height: 40px;
+  border-radius: 8px;
+}
